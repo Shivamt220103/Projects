@@ -1,0 +1,8 @@
+This project focuses on building a machine learning model to classify email messages as either **Spam** or **Ham** (non-spam). It uses Logistic Regression for classification and 
+TF-IDF Vectorization for feature extraction from text data.Used tools are given below-
+Python
+scikit-learn
+Pandas
+Logistic Regression
+TfidfVectorizer
+
