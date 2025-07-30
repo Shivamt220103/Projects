@@ -1,1 +1,8 @@
-This project is about using the sonar dataset to detect whether the object ahead is a rock or a mine. 
+This project uses the Sonar dataset to classify objects as either a rock or a mine based on sonar signal returns. 
+The goal is to train a machine learning model that can accurately detect the nature of the object using numerical sonar data. 
+Tools used are listed below-
+Python
+scikit-learn
+Pandas
+NumPy
+Logistic Regression
