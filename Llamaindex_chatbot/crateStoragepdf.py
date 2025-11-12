@@ -10,7 +10,7 @@ Settings.llm = Ollama(model="mistral", request_timeout=360.0)
 
 
 # Step 2: Load PDF and Create Index
-documents = SimpleDirectoryReader("data").load_data()
+documents = SimpleDirectoryReader("Data").load_data()
 index = VectorStoreIndex.from_documents(documents)
 
 # Step 3: Persist Index
