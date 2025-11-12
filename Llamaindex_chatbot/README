@@ -1,1 +1,11 @@
-HI
+Budget 2025 AI Chatbot (LlamaIndex + Ollama + Local Embeddings)
+
+This project is an **AI-powered chatbot** that allows users to ask questions about a PDF document  
+ It uses:
+- **LlamaIndex** for indexing PDF documents
+- **HuggingFace Embeddings (`BAAI/bge-base-en-v1.5`)**
+- **Ollama (running locally) with Mistral LLM**
+- Optional **Tkinter GUI Chat App** (desktop interface)
+---
+
+
