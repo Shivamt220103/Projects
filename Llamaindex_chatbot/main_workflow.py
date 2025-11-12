@@ -14,11 +14,11 @@ index = load_index_from_storage(storage_context)
 chat_engine = index.as_chat_engine(chat_mode="condense_question", verbose=True)
 
 # Step 4: Chat loop
-print("💬 Ask questions about the Budget 2025 (type 'exit' to quit):")
+print("Ask questions about the Budget 2025 (type 'exit' to quit):")
 while True:
     user_input = input("\nYou: ")
     if user_input.lower() in ["exit", "quit"]:
-        print("👋 Exiting. Have a nice day!")
+        print("Exiting. Have a nice day!")
         break
 
     response = chat_engine.chat(user_input)
